@@ -5,7 +5,7 @@
         $NIM = $_GET['Nim'];
         $JK = $_GET['Jenis_kelamin'];
         $doswal = $_GET['select'];
-    //    $temp = explode(" - ", $doswal);
+        $temp = explode(" - ", $doswal);
 
         $sql = "SELECT id FROM `dosenwali` WHERE `nama` LIKE '$temp[0]'";    
         $result = $conn->query($sql);       
