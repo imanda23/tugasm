@@ -67,65 +67,8 @@
             </a>
         </div>
 
-        <ul class="list-group list-group-horizontal-sm">
-            <li class="list-group-item item">ID</li>
-            <li class="list-group-item judul">Nama</li>
-            <li class="list-group-item judul">NIM</li>
-            <li class="list-group-item judul">Dosen Wali</li>
-            <li class="list-group-item buton">Aksi</li>     
-        </ul>
-
         <?php include "my.php";?>
-            <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Tambahkan Mahasiswa</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group row">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">Nama</label>
-                                <div class="col-sm-10">
-                                <input type="input" class="form-control" name="Nama">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">NIM</label>
-                                <div class="col-sm-10">
-                                <input type="input" class="form-control" name="Nim">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Jenis kelamin</label>
-                                <div class="form-check form-check-inline">                        
-                                    <input class="form-check-input" type="radio" name="Jk" id="inlineRadio1" value="1">
-                                    <label class="form-check-label" for="inlineRadio1">Laki-laki</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="Jk" id="inlineRadio2" value="0">
-                                    <label class="form-check-label" for="inlineRadio2">Perempuan</label>
-                                </div>
-                            </div>   
-                            <div class="form-group row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Dosen Wali</label>
-                                <select class="custom-select custom-select-lg col-md-6">
-                                    <option selected>Pilih Dosen</option> 
-                                <?php include "dosen.php";?>                                         
-                                </select>
-                            </div>
-                            <div class="form-group row">                        
-                                <button type="submit" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </form>
-                    </div>               
-                </div>
-            </div>
-        </div>     
+           
     </div> 
 
     <!-- Optional JavaScript -->
