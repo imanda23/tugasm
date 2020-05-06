@@ -13,11 +13,11 @@
 
     <style>
         .main{
-            padding: 100px;
+            padding: 120px;
         }  
         .form-group{
             padding: 0px 0px;
-            left: 1080px
+            left: 1075px
         }        
     </style>
 
